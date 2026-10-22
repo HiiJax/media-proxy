@@ -1,5 +1,3 @@
-ignorePatchFailures: false
-
-onlyBuiltDependencies:
-  - '@swc/core'
-  - sharp
+allowBuilds:
+  '@swc/core': true
+  sharp: true

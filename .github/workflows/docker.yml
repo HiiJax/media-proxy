@@ -5,7 +5,7 @@ on:
     branches:
       - main
     tags:
-      - '**'
+      - "**"
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,7 @@ jobs:
   push_to_registry:
     name: Push Docker image to GitHub Container Registry
     runs-on: ubuntu-latest
-    if: github.repository == 'MisskeyIO/media-proxy'
+    if: github.repository == 'HiiJax/media-proxy'
     steps:
       - name: Check out the repo
         uses: actions/checkout@v6
